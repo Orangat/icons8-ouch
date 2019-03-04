@@ -1,0 +1,14 @@
+<svg width="32px" height="42px" viewBox="0 0 32 42" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g id="🚩-Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.99">
+        <g id="00-Icons8-menu-\-Desktop" transform="translate(-636.000000, -579.000000)">
+            <g id="Group-3" transform="translate(24.000000, 24.000000)">
+                <g id="music" transform="translate(604.000000, 552.000000)">
+                    <rect id="Container" x="0" y="0" width="48" height="48"></rect>
+                    <rect id="Rectangle" fill="#FFD36F" x="8" y="3" width="32" height="14"></rect>
+                    <rect id="Rectangle" fill="#FFD36F" x="8" y="31" width="16" height="14"></rect>
+                    <polygon id="Triangle" fill="#FFD36F" transform="translate(24.500000, 24.000000) rotate(-270.000000) translate(-24.500000, -24.000000) " points="24.5 18.5 31.5 29.5 17.5 29.5"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

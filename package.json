@@ -1,0 +1,24 @@
+{
+  "name": "icons8-ouch",
+  "version": "1.0.0",
+  "description": "Frontend for Ouch! project",
+  "dependencies": {
+    "icons8-common": "git+ssh://git@gitlab.icons8.com:icons8/icons8-common#v0.0.37"
+  },
+  "scripts": {
+    "translate": "cross-env project=ouch node ./node_modules/icons8-common/src/translate.js",
+    "dev": "nuxt",
+    "service": "nuxt start",
+    "build": "cross-env NODE_ENV=production nuxt build",
+    "start": "cross-env NODE_ENV=production nuxt start",
+    "docker": "cross-env NODE_ENV=production HOST=0.0.0.0 nuxt start",
+    "build:dev": "cross-env NODE_ENV=dev nuxt build",
+    "start:dev": "cross-env NODE_ENV=dev nuxt start",
+    "docker:dev": "cross-env NODE_ENV=dev HOST=0.0.0.0 nuxt start",
+    "debug": "cross-env DEBUG=common nuxt"
+  },
+  "author": "KonstantinVlasov <konstantinnvlasov@gmail.com>",
+  "bin": {
+    "nuxt-translate": "./bin/translate.js"
+  }
+}

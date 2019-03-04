@@ -1,0 +1,14 @@
+@import 'icons8-common/src/assets/css/mixins.scss';
+
+@mixin card-animations {
+  transition: all .3s ease;
+  &:hover{
+    box-shadow: 0 16px 16px rgba(0, 0, 0, .1);
+    transform: translateY(-4px);
+  }
+  &:focus,
+  &:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+}
